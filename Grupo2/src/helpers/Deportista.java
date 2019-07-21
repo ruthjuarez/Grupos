@@ -15,6 +15,7 @@ public class Deportista extends Persona {
         setNombre("Jose Orlando");
         setApellido("Canizales");
         setEdad(22);
+        setAltura(170);
     }    
 
     @Override

@@ -2,9 +2,10 @@
 package helpers;
 
 public abstract class Persona {
-     private String nombre;
+    private String nombre;
     private String apellido;
     private int edad;
+    private int altura;
     
     public Persona(){
     
@@ -29,11 +30,19 @@ public abstract class Persona {
      public int getEdad(){
         return this.edad;
      }
+     public void setAltura(int altura){
+         this.altura=altura;
+     }
+
+     public int getAltura(){
+        return this.altura;
+     }
      
      public void informacion(){
         System.out.println("Nombre: " + nombre);
         System.out.println("Apellido: " + apellido);
         System.out.println("Edad: " + edad);
+        System.out.println("Altura: " + altura + " cm");
      }
      
      abstract String getNacionalidad();

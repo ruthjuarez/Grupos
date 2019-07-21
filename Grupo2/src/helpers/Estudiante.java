@@ -15,6 +15,7 @@ public class Estudiante extends Persona{
         setNombre("Cesar David ");
         setApellido("Vásquez");
         setEdad(27);
+        setAltura(180);
     }        
 
     @Override
